@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #bulb{height: 300px;width:500px;}
+        #onbulb{height: 300px; display: none;}
+        #ofbulb{height: 300px;}
+       
+    </style>
+</head>
+<body>
+    <div id="bulb">
+        <img src="off.jpg" id="ofbulb">     
+<img src="onn.jpg" id="onbulb">
+
+
+    </div>
+    <br>
+    <button onclick="on()">ON</button>
+    <button onclick="off()">OFF</button>
+
+
+<script>
+
+
+    function on(){
+document.getElementById("onbulb").style="display:inline"
+document.getElementById("ofbulb").style="display:none"
+
+    }
+    function off(){
+document.getElementById("onbulb").style="display:none"
+document.getElementById("ofbulb").style="display:inline"
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
